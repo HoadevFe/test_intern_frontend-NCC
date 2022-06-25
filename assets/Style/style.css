@@ -1,0 +1,144 @@
+:root {
+  --white-color: #ffffff;
+  --back-color: #000000;
+  --grayNight-color: #5c5c5c;
+  --grayLight-color: #aaaaaa;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 1918px;
+  height: 935px;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white-color);
+}
+
+.text-white {
+  color: var(--white-color);
+}
+
+.text-nomal {
+  color: var(--grayLight-color);
+}
+
+.sidebar_menu {
+  width: 150px;
+  height: 935px;
+  background-color: #191718;
+  list-style: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.sidebar_menu-item {
+  width: 150px;
+  height: 44px;
+  border-bottom: 1px solid var(--grayNight-color);
+}
+
+.sidebar_menu-item:nth-child(3) {
+  background-color: var(--grayNight-color);
+}
+
+.sidebar_menu-item-link {
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 44px;
+  padding-left: 16px;
+  font-weight: 700s;
+}
+
+.container {
+  width: 1768px;
+  height: 935px;
+  margin-left: 150px;
+  position: absolute;
+}
+.container_logo-header {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.logo-img{
+  width: 310px;
+  height: 122px;
+}
+
+.container__nav{
+  width: 1510px;
+  height: 210px;
+  background-color:  #EFEFEF;
+  margin: 30px 129px 0;
+  text-align: center;
+}
+
+.container_nav-heading{
+  font-size: 18px;
+  color: var(--back-color);
+  padding-top: 38px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.container_nav-desription{
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--back-color);
+  padding: 18px 269px 38px;
+  line-height: 19px;
+}
+
+.container_content{
+  width: 1510px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 104px 0;
+}
+
+.container_content-description{
+  width: 470;
+  height: 252px;
+  margin: 0 25px;
+}
+
+.container_content-heading{
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--back-color);
+  line-height: 28px;
+}
+
+.container_content-image{
+  width: 128px;
+  height: 128px;
+  float: left;
+}
+
+.container_content-description-suv{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: var(--back-color);
+}
+
+.footer{
+  padding-left: 129px;
+  width: 1768px;
+  height: 79px;
+  margin-top: 182px;
+  border-top: 1px solid #ccc;
+}
+
+.footer_span{
+  font-size: 16px;
+  line-height: 79px;
+  color: #3E3E3E;
+}
+
